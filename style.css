@@ -37,3 +37,18 @@
   background-image: conic-gradient(orange 64%, blue 64%, blue 81%, black 81%);
   border-radius: 50%;
 }
+div {
+  color: black;
+}
+p {
+  color: black;
+  font-family: italic;
+  font-size: medium;
+}
+
+h4 {
+  color: black;
+}
+h1 {
+  color: black;
+}
