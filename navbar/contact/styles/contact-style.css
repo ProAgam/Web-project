@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #33b1d0;
+  padding: 2px;
+  margin: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 28px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar ul {
+  overflow: auto;
+  list-style: none;
+}
+.navbar a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+.search {
+  float: right;
+  padding: 2px 100px;
+}
+.h1 {
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+.box {
+  background-color: lightcyan;
+  color: blue;
+  text-align: center;
+}
+.box ul {
+  list-style-type: none;
+}
