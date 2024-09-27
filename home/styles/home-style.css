@@ -52,15 +52,14 @@ h4 {
 h1 {
   color: black;
 }
-.nextbutton{
+.nextbutton {
   float: right;
   width: 100px;
   height: 40px;
   background-color: pink;
-
 }
-.previous{
-  float:left;
+.previous {
+  float: left;
   width: 100px;
   height: 40px;
   background-color: pink;
