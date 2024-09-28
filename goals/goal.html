@@ -30,25 +30,28 @@
         <form>
           <div align="left">
             <label for="Amount">Health &#8377;:
-              <input type="text" placeholder="Amount" /></label><br /><br>
-            <label for="Amount">Food &#8377;: <input type="text" placeholder="Amount" /></label><br /><br>
+            <input type="text" id="num1" placeholder="Amount" /></label><br /><br>
+            <label for="Amount">Food &#8377;: <input type="text"id="num2" placeholder="Amount" /></label><br /><br>
             <label for="Amount">Entertainment &#8377;:
-              <input type="text" placeholder="Amount" /></label><br /><br>
+              <input type="text" id="num3" placeholder="Amount" /></label><br /><br>
             <label for="Amount">subscriptions &#8377;:
-              <input type="text" placeholder="Amount" /></label><br /><br>
+              <input type="text" id="num4"placeholder="Amount" /></label><br /><br>
             <label for="Amount">Shoping &#8377;:
-              <input type="text" placeholder="Amount" /></label><br /><br>
+              <input type="text" id="num5" placeholder="Amount" /></label><br /><br>
             <lable for="Amount">Bills &#8377;:
-              <input type="text" placeholder="Amount" /></label><br /><br>
+              <input type="text" id="num6" placeholder="Amount" /></label><br /><br>
               <label for="Amount">Groceries &#8377;:
-                <input type="text" placeholder="Amount" /></label>
+                <input type="text"id="num7" placeholder="Amount" /></label>
               <br /><br>
               <label for="Amount">Beauty &#8377;:
-                <input type="text" placeholder="Amount" /></label>
+                <input type="text"id="num8" placeholder="Amount" /></label>
               <br /><br>
               <label for="Amount">Travel &#8377;:
-                <input type="text" placeholder="Amount" /></label><br /><br />
-          </div>
+                <input type="text"id="num9" placeholder="Amount" /></label><br /><br />
+                <button onclick="findMax()">Find Maximum</button>
+                <p id="result"></p>
+                <script src="goal.js"></script>
+            </div>
         </form>
       </div>
     </div>
@@ -56,31 +59,32 @@
     <div class="row">
       <div class="half-length">
         <div class="card2">
-        <div class="container" align="left">
-          <h4><b>Expenses graph </b></h4>
-          <p><b>graph of expenses</b></p>
-          <div class="graph"></div>
-          <br /><br />
+          <div class="container" align="left">
+            <h4><b>Expenses graph </b></h4>
+            <p><b>graph of expenses</b></p>
+            <div class="graph"></div>
+            <br /><br />
 
-          <div class="list">
-            <ul id="itemList"></ul>
+            <div class="list">
+              <ul id="itemList"></ul>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
       <div class="card half-length">
         <div class="card3">
-        <div class="container" align="right">
-          <h4><b>Expenses graph </b></h4>
-          <p><b>graph of expenses</b></p>
-          <button class="end">previous page</button>
-          <div class="graph"></div>
-          <br /><br />
+          <div class="container" align="right">
+            <h4><b>Expenses graph </b></h4>
+            <p><b>graph of expenses</b></p>
+            <button class="end">previous page</button>
+            <div class="graph"></div>
+            <br /><br />
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </div>
 </body>
+
 </html>

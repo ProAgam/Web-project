@@ -9,7 +9,7 @@ body {
 .container {
   font-family: "AvenirBook", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: white;
+  color: #060909;
   padding: 4px;
   margin: 4px auto;
   float: left;
@@ -45,7 +45,7 @@ h1 {
   position: relative;
   width: 400px;
   height: 450px;
-  background: #33b1d0;
+  background: #060909;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -54,7 +54,7 @@ h1 {
 
 h2 {
   font-size: 2em;
-  color: #151111;
+  color: #fff;
   text-align: center;
   transition: 0.5s ease;
 }
@@ -206,7 +206,7 @@ button {
 }
 
 .input-check:checked ~ button {
-  background: #00f7ff;
+  background: #060909;
   box-shadow: 0 0 15px #00f7ff, 0 0 15px #00f7ff;
 }
 
@@ -219,7 +219,7 @@ button {
 }
 
 .input-check:checked ~ .register-link {
-  color: #00f7ff;
+  color: #060909;
   text-shadow: 0 0 10px #00f7ff;
 }
 
@@ -239,7 +239,7 @@ button {
 }
 
 .navbar {
-  background-color: pink;
+  background-color: rgb(1, 2, 8);
   padding: 2px;
   margin: 12px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -257,7 +257,7 @@ button {
 .navbar a {
   padding: 10px 10px;
   text-decoration: none;
-  color: blue;
+  color: rgb(248, 248, 250);
 }
 .search {
   float: right;
