@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #33b1d0;
+  background-color: pink;
   padding: 2px;
   margin: 12px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -23,20 +23,36 @@
   float: right;
   padding: 2px 100px;
 }
-.h1 {
-  font-size: 30px;
-  color: blue;
-  text-align: center;
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.349) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
-.p {
+h1 {
+  color: black;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 4px;
+  padding: 4px;
+}
+p {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
+  color: white;
 }
 .box {
-  background-color: lightcyan;
-  color: blue;
+  color: black;
   text-align: center;
+  background-color: azure;
+  width: 50%;
+  margin: auto;
+  border: 0px;
+  border-radius: 20px;
 }
 .box ul {
   list-style-type: none;
+  font-size: large;
 }

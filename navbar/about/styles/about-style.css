@@ -1,5 +1,18 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.349) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-size: 130%;
+}
 h1 {
-  text-align: center;
+  color: black;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 4px;
+  padding: 4px;
 }
 
 .navbar {
@@ -21,7 +34,7 @@ h1 {
 .navbar a {
   padding: 10px 10px;
   text-decoration: none;
-  color: blue;
+  color: black;
 }
 .search {
   float: right;
@@ -29,21 +42,22 @@ h1 {
 }
 
 .names {
-  border: 3px solid;
+  border-radius: 20px;
   width: 100px;
   height: 100px;
-  color: blue;
+  color: white;
   margin: 0 auto;
-  font-size: 30px;
-  height: 300px;
-  width: 300px;
-  align-items: center;
+  font-size: 25px;
+  height: 100%;
+  width: 50%;
+  align-items: left;
   text-align: center;
+  background-color: #33b1d0;
 }
 
 .text {
-  font-size: 30px;
-  color: blue;
+  font-size: 25px;
+  color: white;
   margin: 0 auto;
   text-align: center;
 }
