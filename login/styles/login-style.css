@@ -1,15 +1,13 @@
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 0.349) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+ background-image:url(https://i.pinimg.com/736x/b1/5f/23/b15f236151e451068f5530c26c102b75.jpg);
+ background-size:100%;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
 }
 .container {
   font-family: "AvenirBook", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: white;
+  color:white;
   padding: 4px;
   margin: 4px auto;
   float: left;
@@ -45,16 +43,17 @@ h1 {
   position: relative;
   width: 400px;
   height: 450px;
-  background: #33b1d0;
+  background:white;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
   font-size: 2em;
-  color: #151111;
+  color: black;
   text-align: center;
   transition: 0.5s ease;
 }
@@ -75,7 +74,7 @@ h2 {
   left: 0;
   width: 100%;
   height: 2.5px;
-  background: #f7f4f4;
+  background:black;
   transition: 0.5s ease;
 }
 
@@ -90,7 +89,7 @@ h2 {
   left: 5px;
   transform: translateY(-50%);
   font-size: 1em;
-  color: #fff;
+  color:black;
   pointer-events: none;
   transition: 0.5s ease;
 }
@@ -177,13 +176,13 @@ h2 {
 button {
   width: 100%;
   height: 40px;
-  background: #fff;
+  background:black;
   border: none;
   outline: none;
   border-radius: 40px;
   cursor: pointer;
   font-size: 1em;
-  color: #191919;
+  color: white;
   font-weight: 500;
   transition: 0.5s ease;
 }
@@ -191,27 +190,30 @@ button {
   width: 200px;
   height: 40px;
   margin: 4px auto;
-  background: #fff;
+  background:black;
   border: none;
   outline: none;
   border-radius: 40px;
   cursor: pointer;
   font-size: 1em;
-  color: #191919;
+  color:white;
   font-weight: 500;
   transition: 0.5s ease;
   position: relative;
   text-align: center;
   align-self: center;
 }
+.link{
+  color: white;
+}
 
 .input-check:checked ~ button {
-  background: #00f7ff;
+  background: white;
   box-shadow: 0 0 15px #00f7ff, 0 0 15px #00f7ff;
 }
 
 .register-link {
-  color: #fff;
+  color:black;
   font-size: 0.9em;
   text-align: center;
   margin: 25px 0 10px;
@@ -219,12 +221,12 @@ button {
 }
 
 .input-check:checked ~ .register-link {
-  color: #00f7ff;
+  color: #060909;
   text-shadow: 0 0 10px #00f7ff;
 }
 
 .register-link p a {
-  color: #fff;
+  color:black;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.5s ease;
@@ -239,11 +241,10 @@ button {
 }
 
 .navbar {
-  background-color: pink;
+  background-color: white;
   padding: 2px;
   margin: 12px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 28px;
 }
 .navbar li {
@@ -262,4 +263,6 @@ button {
 .search {
   float: right;
   padding: 2px 100px;
+  border-style:solid black;
+  border-radius: 4px;
 }

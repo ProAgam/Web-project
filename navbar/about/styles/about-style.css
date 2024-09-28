@@ -14,9 +14,12 @@ h1 {
   margin: 4px;
   padding: 4px;
 }
+body{
+  background-color: black;
+}
 
 .navbar {
-  background-color: pink;
+  background-color: white;
   padding: 2px;
   margin: 12px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -56,8 +59,8 @@ h1 {
 }
 
 .text {
-  font-size: 25px;
-  color: white;
+  font-size: 30px;
+  color: blue;
   margin: 0 auto;
   text-align: center;
 }
