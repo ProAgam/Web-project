@@ -4,77 +4,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/home-style.css" />
   </head>
-  <body class="parent">
-    <div class="column">
-      <div class="card full-length">
-        <div class="container">
-          <div align="left">
-            <label for="amount" align="left">Total balance &#8377;:</label
-            ><br />
-            <input type="text" id="tittle" align="left" /><br />
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="http://127.0.0.1:5600/login/login.html"> Home </a></li>
+          <li>
+            <a href="http://127.0.0.1:5600/navbar/about/about.html"> About</a>
+          </li>
+          <li><a href="#"> Service</a></li>
+          <li>
+            <a href="http://127.0.0.1:5600/navbar/contact/contact.html">
+              Contact Us</a
+            >
+          </li>
+          <div class="search">
+            <input type="text" name=""search" id ="search" placeholder="seach
+            this website">
           </div>
-          <h1><b>Transactions</b></h1>
-          <p>Will be displayed here...</p>
+        </ul>
+      </nav>
+    </header>
+    <div class="parent">
+      <div class="column">
+        <div class="card full-length">
+          <div class="container">
+            <div align="left">
+              <label for="amount" align="left">Total balance &#8377;:</label
+              ><br />
+              <input type="text" id="tittle" align="left" /><br />
+            </div>
+            <h1><b>Transactions</b></h1>
+            <p>Will be displayed here...</p>
 
-          <div class="list">
-            <ul id="itemList"></ul>
+            <div class="list">
+              <ul id="itemList"></ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="column">
-      <div class="card half-length">
-        <div class="container" align="center">
-          <h4><b>Budget</b></h4>
-          <p>Pie chart shown here...</p>
-          <div class="pie"></div>
+      <div class="column">
+        <div class="card half-length">
+          <div class="container" align="center">
+            <h4><b>Budget</b></h4>
+            <p>Pie chart shown here...</p>
+            <div class="pie"></div>
+          </div>
         </div>
-      </div>
+        <div class="card half-length">
+          <div class="container" align="center">
+            <h4><b>Add Expense</b></h4>
+            <p>Add new expense here...</p>
+            <form id="itemForm">
+              <label for="title">Title:</label><br />
+              <input
+                type="text"
+                id="title"
+                name="title"
+                value="Test"
+              /><br /><br />
 
-      <div class="card half-length">
-        <div class="container" align="center">
-          <h4><b>Add Expense</b></h4>
-          <p>Add new expense here...</p>
-          <form id="itemForm">
-            <label for="title">Title:</label><br />
-            <input
-              type="text"
-              id="title"
-              name="title"
-              value="Test"
-            /><br /><br />
+              <label for="amount">Amount &#8377;:</label><br />
+              <input
+                type="text"
+                id="amount"
+                name="amount"
+                value="10"
+              /><br /><br />
 
-            <label for="amount">Amount &#8377;:</label><br />
-            <input
-              type="text"
-              id="amount"
-              name="amount"
-              value="10"
-            /><br /><br />
-
-            <label for="category">Category</label><br />
-            <select name="list" id="list">
-              <option value="Health">Health</option>
-              <option value="Shopping">Shopping</option>
-              <option value="Entertainment">Entertainment</option>
-              <option value="Travel">Travel</option>
-              <option value="Bills">Bills</option>
-              <option value="Groceries">Groceries</option>
-              <option value="subscriptions">subscriptions</option>
-              <option value="Beauty">Beauty</option>
-              <option value="Food">Food</option>
-            </select>
-            <br />
-            <br />
-            <button>Submit</button><br /><br />
-            <button class="nextbutton">
-              <a href="http://127.0.0.1:5600/goals/goal.html">next page</a>
-            </button>
-            <button class="previous">
-              <a href="http://127.0.0.1:5600/login/login.html">previous page</a>
-            </button>
-          </form>
+              <label for="category">Category</label><br />
+              <select name="list" id="list">
+                <option value="Health">Health</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Travel">Travel</option>
+                <option value="Bills">Bills</option>
+                <option value="Groceries">Groceries</option>
+                <option value="subscriptions">subscriptions</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Food">Food</option>
+              </select>
+              <br />
+              <br />
+              <button>Submit</button><br /><br />
+              <button class="nextbutton">
+                <a href="http://127.0.0.1:5600/goals/goal.html">next page</a>
+              </button>
+              <button class="previous">
+                <a href="http://127.0.0.1:5600/login/login.html"
+                  >previous page</a
+                >
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
