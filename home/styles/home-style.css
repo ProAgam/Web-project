@@ -64,3 +64,28 @@ h1 {
   height: 40px;
   background-color: pink;
 }
+.navbar {
+  background-color: pink;
+  padding: 2px;
+  margin: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 28px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar ul {
+  overflow: auto;
+  list-style: none;
+}
+.navbar a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+.search {
+  float: right;
+  padding: 2px 100px;
+}

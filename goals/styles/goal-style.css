@@ -9,12 +9,29 @@ body {
   justify-content: space-around;
 }
 .navbar {
-  background-color: lightcyan;
+  background-color: pink;
   padding: 2px;
   margin: 12px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-radius: 20px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar ul {
+  overflow: auto;
+  list-style: none;
+}
+.navbar a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: blue;
+}
+.search {
+  float: right;
+  padding: 2px 100px;
 }
 .container {
   background-color: lightcyan;
@@ -22,7 +39,7 @@ body {
   padding: 26px;
   height: 95%;
 }
-.container{
+.container {
   padding: 2px 16px;
 }
 .card1 {
@@ -45,8 +62,8 @@ body {
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 100%;
-  margin: 16px;
+  width: 95%;
+  margin: 14px;
   padding: 5px;
   background-color: pink;
   color: blue;
@@ -58,8 +75,8 @@ body {
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 100%;
-  margin: 16px;
+  width: 95%;
+  margin: 14px;
   padding: 5px;
   background-color: pink;
   color: blue;
@@ -87,9 +104,9 @@ body {
   justify-content: space-between;
   width: 100%;
 }
-.end{
-  background-color:pink ;
-  color:blue;
+.end {
+  background-color: pink;
+  color: blue;
   width: 40%;
   height: 30%;
 }
