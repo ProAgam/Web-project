@@ -7,7 +7,7 @@ body {
   );
 }
 h1 {
-  color: white;
+  color: black;
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 4px;
@@ -56,10 +56,10 @@ h1 {
 }
 
 .text {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 h2 {
   color: black;
