@@ -1,3 +1,11 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.349) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 .parent {
   height: 100vh;
   margin: 20px 10px;
@@ -21,6 +29,10 @@
 
 .full-length {
   height: 100%;
+  background-color: lightblue;
+  border: 2px;
+  border-radius: 20px;
+  font-size: 25px;
 }
 
 .half-length {
@@ -42,7 +54,7 @@ div {
 }
 p {
   color: black;
-  font-family: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: medium;
 }
 
@@ -56,16 +68,16 @@ h1 {
   float: right;
   width: 100px;
   height: 40px;
-  background-color: pink;
+  background-color: azure;
 }
 .previous {
   float: left;
   width: 100px;
   height: 40px;
-  background-color: pink;
+  background-color: azure;
 }
 .navbar {
-  background-color: pink;
+  background-color: azure;
   padding: 2px;
   margin: 12px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
