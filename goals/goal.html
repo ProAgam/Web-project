@@ -39,36 +39,35 @@
 
     <div class="card1" align="center">
       <div class="container">
-        <h3>saving details</h3>
-        <label for="amount" align="left">Total balance &#8377;:</label><br />
+        <h3>Saving details</h3>
+        <label for="amount" align="left"><b>Total balance &#8377;:</b></label><br />
         <input type="text" id="tittle" /><br />
-        <label for="amount" align="left">Saving amount &#8377;:</label><br />
+        <label for="amount" align="left"><b>Saving amount &#8377;:</b></label><br />
         <input type="text" id="tittle" /><br />
-        <label for="amount" align="left">expense &#8377;:</label><br />
+        <label for="amount" align="left"><b>expense &#8377;:</b></label><br />
         <input type="text" id="tittle" /><br /><br />
-        <h3 align="right">top expenses</h3>
         <form>
           <div align="left">
-            <label for="Amount">Health &#8377;:
+            <label for="Amount"><b>Health &#8377;:</b>
             <input type="text" id="num1" placeholder="Amount" /></label><br /><br>
-            <label for="Amount">Food &#8377;: <input type="text"id="num2" placeholder="Amount" /></label><br /><br>
-            <label for="Amount">Entertainment &#8377;:
+            <label for="Amount"><b>Food &#8377;:</b> <input type="text"id="num2" placeholder="Amount" /></label><br /><br>
+            <label for="Amount"><b>Entertainment &#8377;:</b>
               <input type="text" id="num3" placeholder="Amount" /></label><br /><br>
-            <label for="Amount">subscriptions &#8377;:
+            <label for="Amount"><b>subscriptions &#8377;:</b>
               <input type="text" id="num4"placeholder="Amount" /></label><br /><br>
-            <label for="Amount">Shoping &#8377;:
+            <label for="Amount"><b>Shoping &#8377;:</b>
               <input type="text" id="num5" placeholder="Amount" /></label><br /><br>
-            <lable for="Amount">Bills &#8377;:
+            <lable for="Amount"><b>Bills &#8377;:</b>
               <input type="text" id="num6" placeholder="Amount" /></label><br /><br>
-              <label for="Amount">Groceries &#8377;:
+              <label for="Amount"><b>Groceries &#8377;:</b>
                 <input type="text"id="num7" placeholder="Amount" /></label>
               <br /><br>
-              <label for="Amount">Beauty &#8377;:
-                <input type="text"id="num8" placeholder="Amount" /></label>
+              <label for="Amount"><b>Beauty &#8377;:</b>
+                <input type="text"id="num8" placeholder="Amount" /></label> 
               <br /><br>
-              <label for="Amount">Travel &#8377;:
+              <label for="Amount"><b>Travel &#8377;:</b>
                 <input type="text"id="num9" placeholder="Amount" /></label><br /><br />
-                <button onclick="findMax()">Find Maximum</button>
+                <button onclick="findMax()" class="findmax">Find Maximum</button>
                 <p id="result"></p>
                 <script src="goal.js"></script>
             </div>
@@ -79,8 +78,8 @@
     <div class="row">
       <div class="half-length">
         <div class="card2">
-          <div class="container" align="left">
-            <h4><b>Expenses graph </b></h4>
+          <div class="container" align="center">
+            <h2><b>Expenses graph </b></h2>
             <p><b>graph of expenses</b></p>
             <div class="graph"></div>
             <br /><br />
@@ -97,13 +96,32 @@
         <div class="container" align="left">
           <h4><b>saving tips  </b></h4>
           <p><b> for Top expenses</b></p>
-          <button class="end"><a href="http://127.0.0.1:5600/home/home.html">previous page</a></button>
-          <div class="graph"></div>
-          <br /><br />
+<pre>
+Here are some practical tips for saving money:<br>
+1. Create a Budget
+Track your income and expenses to see where your money goes.
+Set limits on non-essential spending and focus on needs versus wants.<br>
+2. Automate Your Savings
+Set up automatic transfers from your checking to savings account.
+Treat your savings like a regular bill to ensure you're consistent.<br>
+3. Cut Unnecessary Subscriptions
+Review your subscriptions (e.g., streaming, gym, magazines)and cancel those you 
+don't use regularly.<br>
+4. Buy Generic Brands
+Opt for store or generic brands instead of name brands for groceries.
+They are often cheaper and similar in quality.<br>
+5. Meal Plan and Cook at Home
+Plan meals for the week and cook at home to reduce spending on dining out.
+Prep meals in bulk to save time and money.<br>
+6. Use Cashback and Rewards Programs
+Sign up for cashback apps, store loyalty programs, or use a rewards credit card.
+</pre>
+          <br /><br /><br>
         </div>
       </div>
     </div>
   </div>
+<button class="end" align="right"><a href="http://127.0.0.1:5600/home/home.html">previous page</a></button>
 </body>
 
 </html>
