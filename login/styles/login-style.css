@@ -12,12 +12,12 @@ body {
 }
 .container {
   font-family: "AvenirBook", Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  color: white;
+  font-size: 20px;
+  color:white;
   padding: 4px;
-  margin: 4px auto;
+  margin: 4px ;
   float: left;
-  width: 50%;
+  width: 30%;
   display: block;
   min-height: 200px;
   animation-name: hover;
@@ -25,6 +25,8 @@ body {
 }
 .container p{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:38px;
+  float:right;
 }
 .body {
   align-items: center;
@@ -41,20 +43,21 @@ body {
   }
 }
 
-h1 {
+ h1 {
   text-align: left;
+  float: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 4px;
   padding: 4px;
   color: white;
-}
+} 
 
 .login-box {
   position: relative;
   width: 500px;
   height: 450px;
   background: transparent;
-  /* border: 2px solid white; */
+  border: 2px solid white;
   /* backdrop-filter:blur(20px); */
   border-radius: 20px;
   display: flex;
@@ -236,7 +239,7 @@ button {
 }
 
 .input-check:checked ~ .register-link {
-  color: #060909;
+  color:white;
   text-shadow: 0 0 10px #00f7ff;
 }
 
@@ -282,8 +285,19 @@ button {
   border-radius: 4px;
 }
 .align{
-  margin-top: 20%;
-  margin-left: 33%;
+  margin-top: 10%;
+  margin-left: 40%;
   align-items: center;
   text-align: center;
+}
+.icon{
+  display: inline;
+  font-size:45px;
+  text-align: center;
+}
+.last{
+  float: right;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 30%;
 }
