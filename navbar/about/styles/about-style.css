@@ -7,7 +7,7 @@ body {
   );
 }
 h1 {
-  color: white;
+  color: black;
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 4px;
@@ -42,16 +42,18 @@ h1 {
 
 .names {
   border-radius: 20px;
-  width: 100px;
-  height: 100px;
-  color: white;
-  margin: 0 auto;
+  color: black;
+  margin: 5px auto;
   font-size: 25px;
-  height: 100%;
-  width: 50%;
-  align-items: left;
-  text-align: center;
-  background-color: #33b1d0;
+  height:200px;
+  width:400px;
+  align-items:center;
+  text-align:center;
+  background-color: azure;
+  border:4px solid black;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 6px 2px;
 }
 
 .text {
@@ -59,4 +61,8 @@ h1 {
   color: white;
   margin: 0 auto;
   text-align: center;
+}
+h2{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
