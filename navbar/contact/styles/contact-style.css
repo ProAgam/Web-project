@@ -1,9 +1,8 @@
 .navbar {
-  background-color: pink;
+  background-color: white;
   padding: 2px;
   margin: 12px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 28px;
 }
 .navbar li {
