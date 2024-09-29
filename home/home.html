@@ -4,27 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/home-style.css" />
     <link rel="stylesheet" href="image.jpg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <ul>
-          <li><a href="http://127.0.0.1:5600/login/login.html"> Home </a></li>
-          <li>
-            <a href="http://127.0.0.1:5600/navbar/about/about.html"> About</a>
-          </li>
-          <li><a href="http://127.0.0.1:5600/navbar/service/service.html"> Service</a></li>
-          <li>
-            <a href="http://127.0.0.1:5600/navbar/contact/contact.html">
-              Contact Us</a
-            >
-          </li>
-          <div class="search">
-            <input type="text" name=""search" id ="search" placeholder="seach this website">
-          </div>
-        </ul>
-      </nav>
-      </header>
+      <div id="navigation"></div>
+    </header>
     <div class="parent">
       <div class="column">
         <div class="card full-length">
@@ -52,23 +37,16 @@
           <div class="container" align="center">
             <h1><b>Add Expense</b></h1>
             <form id="itemForm">
-              <label for="title" ><b>Title:</b></label><br />
-              <input
-                type="text"
-                id="title"
-                name="title"
-                value="Test"
-              /><br /><br>
+              <label for="title"><b>Title:</b></label
+              ><br />
+              <input type="text" id="title" name="title" value="Test" /><br /><br />
 
-              <label for="amount"><b>Amount &#8377;:</b></label><br />
-              <input
-                type="text"
-                id="amount"
-                name="amount"
-                value="10"
-              /><br /><br />
+              <label for="amount"><b>Amount &#8377;:</b></label
+              ><br />
+              <input type="text" id="amount" name="amount" value="10" /><br /><br />
 
-              <label for="category"><b>Category</b></label><br />
+              <label for="category"><b>Category</b></label
+              ><br />
               <select name="list" id="list">
                 <option value="Health">Health</option>
                 <option value="Shopping">Shopping</option>
@@ -78,16 +56,16 @@
                 <option value="Groceries">Groceries</option>
                 <option value="subscriptions">subscriptions</option>
                 <option value="Beauty">Beauty</option>
-                <option value="Food">Food</option>
-              </select><br>
+                <option value="Food">Food</option></select
+              ><br />
               <br />
-              <br><br>
+              <br /><br />
               <button class="submit">Submit</button><br /><br />
               <button class="nextbutton">
-                <a href="http://127.0.0.1:5600/goals/goal.html" style="color: white;">Next<a>
+                <a href="http://127.0.0.1:5600/goals/goal.html" style="color: white">Next</a>
               </button>
               <button class="previous">
-                <a href="http://127.0.0.1:5600/login/login.html" style="color: white;">Previous</a>
+                <a href="http://127.0.0.1:5600/login/login.html" style="color: white">Previous</a>
               </button>
             </form>
           </div>
@@ -96,4 +74,9 @@
     </div>
     <script src="scripts/home.js"></script>
   </body>
+  <script>
+    $(document).ready(function () {
+      $("#navigation").load("http://127.0.0.1:5600/navbar/navbar.html");
+    });
+  </script>
 </html>
