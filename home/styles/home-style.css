@@ -29,14 +29,17 @@ body {
 
 .full-length {
   height: 100%;
-  background-color: lightblue;
+  background-color: azure;
   border: 2px;
   border-radius: 20px;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .half-length {
-  height: 48%;
+  height: 49%;
+  background-color: azure;
+  border: 2px;
+  border-radius: 20px;
 }
 
 .container {
@@ -58,23 +61,33 @@ p {
   font-size: medium;
 }
 
-h4 {
-  color: black;
-}
 h1 {
   color: black;
 }
 .nextbutton {
   float: right;
   width: 100px;
-  height: 40px;
+  height: 35px;
   background-color: azure;
+  border: 2px;
+  border-radius: 10px;
+  border-color: black;
 }
 .previous {
   float: left;
   width: 100px;
-  height: 40px;
+  height: 35px;
   background-color: azure;
+  border: 2px;
+  border-radius: 10px;
+  border-color: black;
+}
+.submit {
+  border: 2px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100px;
 }
 .navbar {
   background-color: azure;
