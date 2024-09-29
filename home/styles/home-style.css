@@ -29,7 +29,7 @@ body {
 
 .full-length {
   height: 100%;
-  background-color: azure;
+  background-color: white;
   border: 2px;
   border-radius: 20px;
   font-size: 24px;
@@ -37,7 +37,7 @@ body {
 
 .half-length {
   height: 49%;
-  background-color: azure;
+  background-color: white;
   border: 2px;
   border-radius: 20px;
 }
@@ -68,19 +68,19 @@ h1 {
   float: right;
   width: 100px;
   height: 35px;
-  background-color: azure;
+  background-color: black;
   border: 2px;
   border-radius: 10px;
-  border-color: black;
+  color: white;
 }
 .previous {
   float: left;
   width: 100px;
   height: 35px;
-  background-color: azure;
+  background-color: black;
   border: 2px;
   border-radius: 10px;
-  border-color: black;
+  color: white;
 }
 .submit {
   border: 2px;
@@ -90,11 +90,10 @@ h1 {
   width: 100px;
 }
 .navbar {
-  background-color: azure;
+  background-color: white;
   padding: 2px;
   margin: 12px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 28px;
 }
 .navbar li {
